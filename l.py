@@ -355,14 +355,32 @@
 # Example 1:
 # Input: nums = [2,3,1,1,4]
 # Output: true
-# Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+# Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.def jump(nums):
+
 # def jump(nums):
+#   if len(nums)==1:
+#     return True
 #   max_jump=0
 #   for i in range(len(nums)):
-#     if nums[i]>nums[i+1]:
-      
-#   return
+#     i+=nums[i]
+#     if i>=len(nums)-1:
+#       return True
+#     elif i<len(nums):
+#       return False
+#     elif nums[i]==0:
+#       return False
 # print(jump([2,3,1,1,4]))
+# def jump(nums):
+#   if len(nums) == 1:
+#       return True
+#   i=0
+#   while i<len(nums):
+#     i+=nums[i] 
+#     if i>=len(nums)-1:
+#       return True
+#     elif i<len(nums) and nums[i]==0:
+#       return False
+# print(jump([2,5,0,0]))
 
 
 
@@ -471,4 +489,122 @@
 # print(maxnumber(["please wait", "continue to fight", "continue to win"])) 
 
 
-print(';leey')
+# Question 1
+# Link - https://leetcode.com/problems/next-permutation/description/
+
+
+
+
+# A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
+
+# For example, for arr = [1,2,3], the following are all the permutations of arr: [1,2,3], [1,3,2], [2, 1, 3], [2, 3, 1], [3,1,2], [3,2,1].
+# The next permutation of an array of integers is the next lexicographically greater permutation of its integer. More formally, if all the permutations of the array are sorted in one container according to their lexicographical order, then the next permutation of that array is the permutation that follows it in the sorted container. If such arrangement is not possible, the array must be rearranged as the lowest possible order (i.e., sorted in ascending order).
+
+# For example, the next permutation of arr = [1,2,3] is [1,3,2].
+# Similarly, the next permutation of arr = [2,3,1] is [3,1,2].
+# While the next permutation of arr = [3,2,1] is [1,2,3] because [3,2,1] does not have a lexicographical larger rearrangement.
+# Given an array of integers nums, find the next permutation of nums.
+
+# The replacement must be in place and use only constant extra memory.
+
+
+
+# Example 1:
+
+# Input: nums = [1,2,3]
+# Output: [1,3,2]
+
+
+
+# Question 2
+# Link - https://leetcode.com/problems/merge-intervals/description/
+
+
+
+
+# Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+
+
+
+# Example 1:
+
+# Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+# Output: [[1,6],[8,10],[15,18]]
+
+# Question 3
+# Link - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+
+
+
+
+# Given a string s, find the length of the longest substring without duplicate characters.
+
+
+
+# Example 1:
+
+# Input: s = "abcabcbb"
+# Output: 3
+
+
+# Question 4
+# Link - https://leetcode.com/problems/set-matrix-zeroes/description/
+
+
+
+
+# Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+# You must do it in place.
+
+
+# Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+# Output: [[1,0,1],[0,0,0],[1,0,1]]
+
+
+# Question 5
+# Link - https://leetcode.com/problems/word-search/description/
+# Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+# The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+# Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+# Output: true
+
+
+
+# Question 6
+# Link - https://leetcode.com/problems/product-of-array-except-self/description/
+# Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+# The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+# You must write an algorithm that runs in O(n) time and without using the division operation.
+# Example 1:
+# Input: nums = [1,2,3,4]
+# Output: [24,12,8,6]
+# def product(nums):
+#   mul=1
+#   i=0
+#   ans=[]
+#   while i<len(nums):
+#     nums[i]=i+1
+#     mul*=nums[i]
+#     ans.append(mul)
+#     i+=1
+#   return ans
+# print(product([1,2,3,4]))
+
+# def product(nums):
+#   pro=1
+#   ans=[]
+#   for num in nums:
+#     pro*=num
+#     ans.append(pro)  
+#   return ans
+# print(product([1,2,3,4]))
+
+
+# def same(nums,target):
+#   i=0
+#   while i<len(nums):
+#     if nums[i]+nums[i+1]==target:
+#       i+=1
+#       return [i,i+1]
+# print(same([2,3,4],6))  
