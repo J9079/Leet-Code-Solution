@@ -356,7 +356,17 @@
 # Input: nums = [2,3,1,1,4]
 # Output: true
 # Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.def jump(nums):
-
+# def jump(nums):
+#   max_jump=0
+#   n=len(nums)-1
+#   for i in range(len(nums)):
+#     if i>max_jump:
+#       return False
+#     max_jump=max(max_jump,i+nums[i])
+#     if max_jump>=n:
+#       return True
+#   return False
+# print(jump([2,5,0,0]))
 # def jump(nums):
 #   if len(nums)==1:
 #     return True
@@ -381,11 +391,6 @@
 #     elif i<len(nums) and nums[i]==0:
 #       return False
 # print(jump([2,5,0,0]))
-
-
-
-
-
 
 # def jump(nums):
 #   n = len(nums)
@@ -427,6 +432,24 @@
 # Output: 6
 # Explanation: The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.
 
+# def trapping_rain_water(height):
+#   l=0
+#   r=len(height)-1
+#   left_max=0
+#   right_max=0
+#   trap=0
+#   while l<r:
+#     if height[l]<height[r]:
+#       left_max=max(left_max,height[l])
+#       trap +=left_max-height[l]
+#       l+=1
+#     else:
+#       right_max=max(right_max,height[r])
+#       trap +=right_max - height[r]
+#       r-=1
+#   return trap
+# print(trapping_rain_water([5,4,3,2,10]))
+
 # Question 3
 # Link - https://leetcode.com/problems/candy
 # There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
@@ -438,7 +461,14 @@
 # Input: ratings = [1,0,2]
 # Output: 5
 # Explanation: You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
+# def candy(rating):
+#   i=0
+#   j=i+1
+#   while i<len(rating) and j<len(rating):
+#     if rating[i]==rating[j]:
 
+
+      
 
 
 # Question 4
@@ -457,10 +487,6 @@
   #   add+=i
   # return add
 # print(IP("1.1.1.1"))
-
-
-  # a = address.replace('.','[.]')
-  # return a
 
 
 # Question 5
@@ -518,46 +544,23 @@
 
 # Question 2
 # Link - https://leetcode.com/problems/merge-intervals/description/
-
-
-
-
 # Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
-
-
-
 # Example 1:
-
 # Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
 # Output: [[1,6],[8,10],[15,18]]
-
 # Question 3
 # Link - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-
-
-
-
 # Given a string s, find the length of the longest substring without duplicate characters.
-
-
-
 # Example 1:
-
 # Input: s = "abcabcbb"
 # Output: 3
 
 
+
 # Question 4
 # Link - https://leetcode.com/problems/set-matrix-zeroes/description/
-
-
-
-
 # Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
-
 # You must do it in place.
-
-
 # Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
 # Output: [[1,0,1],[0,0,0],[1,0,1]]
 
@@ -594,9 +597,14 @@
 # def product(nums):
 #   pro=1
 #   ans=[]
+#   i=0
 #   for num in nums:
-#     pro*=num
-#     ans.append(pro)  
+#     if nums[i]:
+#       continue
+#     else:
+#       pro*=num[i]
+#       ans.append(pro)
+#       i+=1  
 #   return ans
 # print(product([1,2,3,4]))
 
@@ -606,5 +614,43 @@
 #   while i<len(nums):
 #     if nums[i]+nums[i+1]==target:
 #       i+=1
-#       return [i,i+1]
+#   return [i,i+1]
 # print(same([2,3,4],6))  
+# def same(nums,target):
+#   ans=[]
+#   for i in range(len(nums)-1):
+#     if nums[i]+nums[i+1]==target:
+#       ans.append((i,i+1))
+#     else:
+#       return 0  
+#   return ans
+# print(same([2,3,4],6))  
+
+# def same(nums,target):
+#   i=0
+#   j=len(nums)-1
+#   while i<j:
+#     if nums[i]+nums[j]==target:
+#       i+=1
+#       j-=1
+#   return [i,j]
+# print(same([1,2,3,4],7))
+
+
+# def same(nums,target):
+#   ans=[]
+#   for i in range(len(nums)):
+#     for j in range(i+1,len(nums)):
+#       if nums[i]+nums[j]==target:
+#         ans.append([i,j])
+#   return ans       
+# print(*same([2,7,11,15],9))  
+
+    
+# def same(nums,target):
+#   res={}
+#   for num in nums:
+#     if 
+#   return
+     
+# print(*same([2,7,11,15],9)) 
