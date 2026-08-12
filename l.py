@@ -462,11 +462,25 @@
 # Output: 5
 # Explanation: You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
 # def candy(rating):
-#   i=0
-#   j=i+1
-#   while i<len(rating) and j<len(rating):
-#     if rating[i]==rating[j]:
-
+#   candies=[]
+#   for i in range(len(rating)-1):
+#     if rating[i]==0:
+#       candies.append(1)
+#     elif rating[i]==rating[i+1]:
+#      candies.append((rating[i]+1)) 
+#   return candies
+# print(candy([1.0,2]))
+# def candy(rating):
+#   n=len(rating)
+#   candies=[1]*n
+#   for i in range(1,n):
+#     if rating[i]>rating[i-1]:
+#       candies[i]=candies[i-1]+1
+#   for i in range(n-2,-1,-1):
+#     if rating[i]>rating[i+1]:
+#       candies[i]=max(candies[i],candies[i+1]+1)
+#   return sum(candies)        
+# print(candy([1,0,2]))
 
       
 
@@ -479,13 +493,13 @@
 # Input: address = "1.1.1.1"
 # Output: "1[.]1[.]1[.]1"
 # def IP(address):
-  # add=""
-  # for i in address:
-  #   if i=='.':
-  #     add +='['+'.'+']'
-  #     continue
-  #   add+=i
-  # return add
+#   add=""
+#   for i in address:
+#     if i=='.':
+#       add +='['+'.'+']'
+#       continue
+#     add+=i
+#   return add
 # print(IP("1.1.1.1"))
 
 
@@ -512,7 +526,7 @@
 #    for sentence in sentences:
 #       max_length=max(max_length,len(sentence.split()))
 #    return max_length 
-# print(maxnumber(["please wait", "continue to fight", "continue to win"])) 
+# print(maxnumber(["alice and bob love leetcode", "i think so too", "this is great thanks very much"])) 
 
 
 # Question 1
