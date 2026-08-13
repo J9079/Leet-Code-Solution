@@ -104,10 +104,10 @@
 # Input: s = "0"
 # Output: true
 
-def digti(s):
-  for i in s:
-    if i.isdigit():
-      if i.toExponential():
-        return True
-  return False
-print(digti("+12"))
+# def digti(s):
+#   for i in s:
+#     if i.isdigit():
+#       if i.toExponential():
+#         return True
+#   return False
+# print(digti("+12"))
