@@ -5,7 +5,19 @@
 # Example 1:
 # Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
 # Output: true
-
+# def same(word1,word2):
+#   str1=""
+#   str2=""
+#   for i in word1:
+#     str1+=i
+#   for j in word2:
+#     str2+=j
+#   if str1==str2:
+#     return True
+#   else:
+#     return False    
+# print(same(["ab", "c"],["a", "bc"]))  
+  
 
 # Question 2
 # Link - https://leetcode.com/problems/number-of-senior-citizens
@@ -18,24 +30,23 @@
 # Example 1:
 # Input: details = ["7868190130M7522","5303914400F9211","9273338290F4010"]
 # Output: 2
+# def above(details):
+#   count=0
+#   for detail in details:
+#     if detail[11:13]>str(60):
+#       count+=1
+#   return count
+# print(above(["7868190130M7522","5303914400F9211","9273338290F4010"])) 
 
+ 
 # Question 3
 # Link - https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage
-
 # You are given a 0-indexed array of strings garbage where garbage[i] represents the assortment of garbage at the ith house. garbage[i] consists only of the characters 'M', 'P' and 'G' representing one unit of metal, paper and glass garbage respectively. Picking up one unit of any type of garbage takes 1 minute.
-
 # You are also given a 0-indexed integer array travel where travel[i] is the number of minutes needed to go from house i to house i + 1.
-
 # There are three garbage trucks in the city, each responsible for picking up one type of garbage. Each garbage truck starts at house 0 and must visit each house in order; however, they do not need to visit every house.
-
 # Only one garbage truck may be used at any given moment. While one truck is driving or picking up garbage, the other two trucks cannot do anything.
-
 # Return the minimum number of minutes needed to pick up all the garbage.
-
-
-
 # Example 1:
-
 # Input: garbage = ["G","P","GP","GG"], travel = [2,4,3]
 # Output: 21
 
@@ -48,52 +59,55 @@
 # Example 1:
 # Input: words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb"
 # Output: ["mee","aqq"]
-
+# def same(words,target):
+#   for word in words:
+    
+# print(same(["abc","deq","mee","aqq","dkd","ccc"],"abb"))    
 
 
 # Question 5
 # Link - https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target
-
 # Given an array of digit strings nums and a digit string target, return the number of pairs of indices (i, j) (where i != j) such that the concatenation of nums[i] + nums[j] equals target.
-
-
-
 # Example 1:
-
 # Input: nums = ["777","7","77","77"], target = "7777"
 # Output: 4
 
+
+# def equals(nums,target):
+#   count=0
+#   for i in range(len(nums)):
+#     for j in range(len(nums)-1,-1,-1):
+#         if nums[i]+nums[j]==target:
+#           if i !=j:
+#              count+=1
+#   return count      
+# print(equals(["1","1","1"],"11"))
 
 
 
 
 # Question 6
 # Link - https://leetcode.com/problems/valid-number
-
-
 # Given a string s, return whether s is a valid number.
-
 # For example, all the following are valid numbers: "2", "0089", "-0.1", "+3.14", "4.", "-.9", "2e10", "-90E3", "3e+7", "+6e-1", "53.5e93", "-123.456e789", while the following are not valid numbers: "abc", "1a", "1e", "e3", "99e2.5", "--6", "-+3", "95a54e53".
-
 # Formally, a valid number is defined using one of the following definitions:
-
 # An integer number followed by an optional exponent.
 # A decimal number followed by an optional exponent.
 # An integer number is defined with an optional sign '-' or '+' followed by digits.
-
 # A decimal number is defined with an optional sign '-' or '+' followed by one of the following definitions:
-
 # Digits followed by a dot '.'.
 # Digits followed by a dot '.' followed by digits.
 # A dot '.' followed by digits.
 # An exponent is defined with an exponent notation 'e' or 'E' followed by an integer number.
-
 # The digits are defined as one or more digits.
-
-
-
 # Example 1:
-
 # Input: s = "0"
-
 # Output: true
+
+def digti(s):
+  for i in s:
+    if i.isdigit():
+      if i.toExponential():
+        return True
+  return False
+print(digti("+12"))
