@@ -49,7 +49,26 @@
 # Example 1:
 # Input: garbage = ["G","P","GP","GG"], travel = [2,4,3]
 # Output: 21
-
+# def pick(garbage,travel):
+#   g=""
+#   total=0
+#   for i in range(len(garbage)-1):
+#     g+=garbage[i]
+#     for gar in garbage:  
+#       if g in gar:
+#         total+=1
+#         print(gar)
+#   return total
+# print(pick(["G","P","GP","GG"],[2,4,3]))  
+# def pick(garbage,travel):
+#   i=0
+#   j=len(garbage)-1
+#   pick=0
+#   while i<j:
+#     if garbage[i] in garbage[j]:
+#       j
+#   return pick
+# print(pick(["G","P","GP","GG"],[2,4,3]))    
 
 # Question 4
 # Link - https://leetcode.com/problems/find-and-replace-pattern
@@ -59,10 +78,15 @@
 # Example 1:
 # Input: words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb"
 # Output: ["mee","aqq"]
-# def same(words,target):
+# def same(words,pattern):
+#   res=[]  
+#   for j in range(len(pattern)):
+#      res.append(pattern[j])
 #   for word in words:
-    
-# print(same(["abc","deq","mee","aqq","dkd","ccc"],"abb"))    
+#     if word in res:
+#       return res   
+# print(same(["abc","deq","mee","aqq","dkd","ccc"],"abb")) 
+  
 
 
 # Question 5
@@ -103,11 +127,29 @@
 # Example 1:
 # Input: s = "0"
 # Output: true
-
-# def digti(s):
-#   for i in s:
-#     if i.isdigit():
-#       if i.toExponential():
-#         return True
-#   return False
-# print(digti("+12"))
+# def isNumber(s):
+#   digit_seen = False
+#   dot_seen = False
+#   exponent_seen = False
+#   digit_exponent = True
+#   for i, ch in enumerate(s):
+#     if ch.isdigit():
+#         digit_seen = True
+#         if exponent_seen:
+#             digit_exponent = True
+#     elif ch == ".":
+#         if dot_seen or exponent_seen:
+#             return False
+#         dot_seen = True
+#     elif ch == "e" or ch == "E":
+#         if exponent_seen or not digit_seen:
+#             return False
+#         exponent_seen = True
+#         digit_exponent = False
+#     elif ch == "+" or ch == "-":
+#         if i != 0 and s[i - 1] not in "eE":
+#             return False
+#     else:
+#         return False
+#   return digit_seen and digit_exponent
+# print(isNumber("0"))
