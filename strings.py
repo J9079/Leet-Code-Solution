@@ -78,16 +78,73 @@
 # Example 1:
 # Input: words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb"
 # Output: ["mee","aqq"]
-# def same(words,pattern):
-#   res=[]  
-#   for j in range(len(pattern)):
-#      res.append(pattern[j])
+# def encode(s):
+#   mapping={}
+#   result=[]
+#   count=0
+#   for ch in s:
+#     if ch not in mapping:
+#       mapping[ch]=count
+#       count+=1
+#     result.append(mapping[ch])  
+#   return result
+# def matching(words,pattern):
+#   same_word=encode(pattern)
+#   return [word for word in words if encode(word)==same_word]
+# print(matching(["abc","deq","mee","aqq","dkd","ccc"],"abb"))
+# def matching(words,pattern):
+#   result=[]
 #   for word in words:
-#     if word in res:
-#       return res   
-# print(same(["abc","deq","mee","aqq","dkd","ccc"],"abb")) 
-  
+#     pattern_word={}
+#     word_pattern={}
+#     match=True
+#     for p,w in zip(pattern,word):
+#       if p in pattern_word:
+#         if pattern_word[p]!=w:
+#           match=False
+#           break
+#       else:
+#         pattern_word[p]=w
+        
+#       if w in word_pattern:
+#         if word_pattern[w]!=p:
+#           match=False
+#           break
+#       else:
+#         word_pattern[w]=p
+#     if match:
+#       result.append(word)  
+#   return result
+# print(matching(["abc","deq","mee","aqq","dkd","ccc"],"abb"))
+# def matching(words,pattern):
+#   res={}
+#   result=[]
+#   i=0
+#   for s in pattern:
+#     if s in res:
+#       result.append(res[s])
+#     else:
+#       i+=1
+#       res[s]=i
+#       result.append(i) 
+#   p=matching(pattern)    
+#   result=[]
+#   for word in words:
+#     if matching(word)==p:
+#       result.append(word)     
+#   return result
+# pattern="abb"
+# words=["abc","deq","mee","aqq","dkd","ccc"]
 
+
+# def convert_to_indices(words,text):
+#     text = text.lower()
+  
+#     patt= ''.join(str(ord(char) - ord('a')) for char in text )
+#     word= ''.join(str(ord(w) - ord('a')) for word1 in words for w in word1 )
+#     if word == patt:
+#       print(words) 
+# print(convert_to_indices(["abc","deq","mee","aqq","dkd","ccc"],"abb"))
 
 # Question 5
 # Link - https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target
