@@ -28,7 +28,29 @@
 # Example 1:
 # Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
 # Output: [1,2,3,6,9,8,7,4,5]
-
+# def spiral(matrix):
+#   top=0
+#   left=0
+#   right=len(matrix[0])-1
+#   bottom=len(matrix)-1
+#   result=[]
+#   while left<=right and top<=bottom:
+#     for i in range(left,right+1):
+#       result.append(matrix[top][i])
+#     top+=1  
+#     for i in range(top,bottom+1):
+#       result.append(matrix[i][right])
+#     right-=1  
+#     if left<=right:
+#       for i in range(right,left-1,-1):
+#         result.append(matrix[bottom][i])
+#       bottom-=1
+#     if  top<=bottom:
+#       for i in range(bottom,top-1,-1):
+#         result.append(matrix[i][left])
+#       left+=1      
+#   return result
+# print(spiral([[1,2,3],[4,5,6],[7,8,9]]))
 
 # Question 3
 # Link - https://leetcode.com/problems/rotate-image
@@ -37,23 +59,11 @@
 # Example 1:
 # Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
 # Output: [[7,4,1],[8,5,2],[9,6,3]]
-
-
-# def majority(nums):
-#   count=0
-#   for num in nums:
-#     count+=1
-#     if num in nums:
-#       return count  
-# print(majority([6,5,5]))
-
-# def majority(nums):
-#   res={}
-#   count=0
-#   for num in nums:
-#     count+=1
-#     if num in res:
-#       res[num]=[]
-#       res[num].append(count)  
-#   return res
-# print(majority([6,5,5]))
+# def rotate_image(matrix):
+#   for i in range(len(matrix[0])):
+#     for j in range(i,len(matrix)):
+#       temp=matrix[i]
+#       matrix[i]=matrix[j]
+#       matrix[j]=temp
+#   return matrix
+# print(rotate_image([[1,2,3],[4,5,6],[7,8,9]]))    

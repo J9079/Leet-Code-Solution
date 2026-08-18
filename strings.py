@@ -62,28 +62,28 @@
 # print(pick(["G","P","GP","GG"],[2,4,3]))  
 # def pick(garbage,travel):
 # def pick(garbage, travel):
-#     for i in range(1, len(travel)):
-#         travel[i] += travel[i - 1]
-#     total = 0
-#     for house in garbage:
-#         total += len(house)
-#     last_M = -1
-#     last_P = -1
-#     last_G = -1
-#     for i in range(len(garbage)):
-#         if 'M' in garbage[i]:
-#             last_M = i
-#         if 'P' in garbage[i]:
-#             last_P = i
-#         if 'G' in garbage[i]:
-#             last_G = i
-#     if last_M > 0:
-#         total += travel[last_M - 1]
-#     if last_P > 0:
-#         total += travel[last_P - 1]
-#     if last_G > 0:
-#         total += travel[last_G - 1]
-#     return total
+    # for i in range(1, len(travel)):
+    #     travel[i] += travel[i - 1]
+    # total = 0
+    # for house in garbage:
+    #     total += len(house)
+    # last_M = -1
+    # last_P = -1
+    # last_G = -1
+    # for i in range(len(garbage)):
+    #     if 'M' in garbage[i]:
+    #         last_M = i
+    #     if 'P' in garbage[i]:
+    #         last_P = i
+    #     if 'G' in garbage[i]:
+    #         last_G = i
+    # if last_M > 0:
+    #     total += travel[last_M - 1]
+    # if last_P > 0:
+    #     total += travel[last_P - 1]
+    # if last_G > 0:
+    #     total += travel[last_G - 1]
+    # return total
 # print(pick(["G","P","GP","GG"],[2,4,3]))    
 
 # Question 4
@@ -109,28 +109,28 @@
 #   return [word for word in words if encode(word)==same_word]
 # print(matching(["abc","deq","mee","aqq","dkd","ccc"],"abb"))
 # def matching(words,pattern):
-#   result=[]
-#   for word in words:
-#     pattern_word={}
-#     word_pattern={}
-#     match=True
-#     for p,w in zip(pattern,word):
-#       if p in pattern_word:
-#         if pattern_word[p]!=w:
-#           match=False
-#           break
-#       else:
-#         pattern_word[p]=w
+  # result=[]
+  # for word in words:
+  #   pattern_word={}
+  #   word_pattern={}
+  #   match=True
+  #   for p,w in zip(pattern,word):
+  #     if p in pattern_word:
+  #       if pattern_word[p]!=w:
+  #         match=False
+  #         break
+  #     else:
+  #       pattern_word[p]=w
         
-#       if w in word_pattern:
-#         if word_pattern[w]!=p:
-#           match=False
-#           break
-#       else:
-#         word_pattern[w]=p
-#     if match:
-#       result.append(word)  
-#   return result
+  #     if w in word_pattern:
+  #       if word_pattern[w]!=p:
+  #         match=False
+  #         break
+  #     else:
+  #       word_pattern[w]=p
+  #   if match:
+  #     result.append(word)  
+  # return result
 # print(matching(["abc","deq","mee","aqq","dkd","ccc"],"abb"))
 # def matching(words,pattern):
 #   res={}
@@ -226,8 +226,3 @@
 #         return False
 #   return digit_seen and digit_exponent
 # print(isNumber("0"))
-
-# votes =[101,102,101,102,101,101,102]
-# for i in votes:
-#   if i//2 == votes:
-#     print(votes)
