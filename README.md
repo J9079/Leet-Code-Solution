@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0771-jewels-and-stones](https://github.com/J9079/Leet-Code-Solution/tree/master/0771-jewels-and-stones) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## Prefix Sum
 |  |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0771-jewels-and-stones](https://github.com/J9079/Leet-Code-Solution/tree/master/0771-jewels-and-stones) |
 ## Matrix
 |  |
 | ------- |
