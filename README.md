@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
 | [0073-set-matrix-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0073-set-matrix-zeroes) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## String
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/J9079/Leet-Code-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
 ## String Matching
 |  |
 | ------- |
@@ -47,4 +49,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/J9079/Leet-Code-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
