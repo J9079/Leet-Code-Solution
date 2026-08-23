@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/J9079/Leet-Code-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0058-length-of-last-word](https://github.com/J9079/Leet-Code-Solution/tree/master/0058-length-of-last-word) |
 | [0771-jewels-and-stones](https://github.com/J9079/Leet-Code-Solution/tree/master/0771-jewels-and-stones) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## Prefix Sum
