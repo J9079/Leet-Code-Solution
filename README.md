@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/J9079/Leet-Code-Solution/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/J9079/Leet-Code-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/J9079/Leet-Code-Solution/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/J9079/Leet-Code-Solution/tree/master/0067-add-binary) |
 | [0771-jewels-and-stones](https://github.com/J9079/Leet-Code-Solution/tree/master/0771-jewels-and-stones) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## Prefix Sum
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/J9079/Leet-Code-Solution/tree/master/0009-palindrome-number) |
 | [0050-powx-n](https://github.com/J9079/Leet-Code-Solution/tree/master/0050-powx-n) |
+| [0067-add-binary](https://github.com/J9079/Leet-Code-Solution/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/J9079/Leet-Code-Solution/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 ## Recursion
@@ -121,4 +123,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/J9079/Leet-Code-Solution/tree/master/0135-candy) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/J9079/Leet-Code-Solution/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/J9079/Leet-Code-Solution/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
