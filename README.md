@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0169-majority-element) |
+| [0190-reverse-bits](https://github.com/J9079/Leet-Code-Solution/tree/master/0190-reverse-bits) |
 ## Sorting
 |  |
 | ------- |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/J9079/Leet-Code-Solution/tree/master/0067-add-binary) |
+| [0190-reverse-bits](https://github.com/J9079/Leet-Code-Solution/tree/master/0190-reverse-bits) |
 ## Simulation
 |  |
 | ------- |
