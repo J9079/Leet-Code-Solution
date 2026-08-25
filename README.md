@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/J9079/Leet-Code-Solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## String
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/J9079/Leet-Code-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 ## String Matching
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/J9079/Leet-Code-Solution/tree/master/0009-palindrome-number) |
 | [0050-powx-n](https://github.com/J9079/Leet-Code-Solution/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/J9079/Leet-Code-Solution/tree/master/0069-sqrtx) |
+| [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 ## Recursion
 |  |
 | ------- |
