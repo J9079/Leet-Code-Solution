@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/J9079/Leet-Code-Solution/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0283-move-zeroes) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## String
 |  |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0283-move-zeroes) |
 ## String Matching
 |  |
 | ------- |
