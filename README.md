@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0283-move-zeroes) |
+| [0867-transpose-matrix](https://github.com/J9079/Leet-Code-Solution/tree/master/0867-transpose-matrix) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/J9079/Leet-Code-Solution/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 ## String
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0867-transpose-matrix](https://github.com/J9079/Leet-Code-Solution/tree/master/0867-transpose-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -141,4 +143,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/J9079/Leet-Code-Solution/tree/master/0067-add-binary) |
+| [0867-transpose-matrix](https://github.com/J9079/Leet-Code-Solution/tree/master/0867-transpose-matrix) |
 <!---LeetCode Topics End-->
