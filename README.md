@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/J9079/Leet-Code-Solution/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/J9079/Leet-Code-Solution/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/J9079/Leet-Code-Solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/J9079/Leet-Code-Solution/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/J9079/Leet-Code-Solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 ## Stack
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/J9079/Leet-Code-Solution/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/J9079/Leet-Code-Solution/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/J9079/Leet-Code-Solution/tree/master/0191-number-of-1-bits) |
