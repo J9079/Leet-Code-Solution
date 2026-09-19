@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/J9079/Leet-Code-Solution/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/J9079/Leet-Code-Solution/tree/master/0136-single-number) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/J9079/Leet-Code-Solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/J9079/Leet-Code-Solution/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0283-move-zeroes) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/J9079/Leet-Code-Solution/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/J9079/Leet-Code-Solution/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/J9079/Leet-Code-Solution/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/J9079/Leet-Code-Solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/J9079/Leet-Code-Solution/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/J9079/Leet-Code-Solution/tree/master/0283-move-zeroes) |
 ## String Matching
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/J9079/Leet-Code-Solution/tree/master/0069-sqrtx) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/J9079/Leet-Code-Solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Newton's Method
 |  |
 | ------- |
