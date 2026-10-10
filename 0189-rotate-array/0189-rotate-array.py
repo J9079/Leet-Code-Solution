@@ -28,9 +28,3 @@ class Solution:
           i+=1
           l-=1  
         return nums 
-        # n=len(nums)
-        # if n<=1:
-        #   return
-        # k=k%n
-        # nums[:]=nums[k:]+nums[:k]
-        # return nums        
